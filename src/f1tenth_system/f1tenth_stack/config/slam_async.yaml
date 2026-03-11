@@ -30,6 +30,11 @@ slam_toolbox:
     scan_queue_size: 100
 
     tf_buffer_duration: 120.0
+    map_update_interval: 0.1
+    scan_queue_size: 80
+
+    tf_buffer_duration: 60.0
+
     transform_tolerance: 1.0
     transform_publish_period: 0.01
 
